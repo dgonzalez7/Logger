@@ -14,7 +14,7 @@ public class HelloWorld
 	private static Logger theLogger = Logger.getLogger(HelloWorld.class.getName());
 
 	public static void main(String[] args) 
-	{
+	{		
 		Handler[] handlers = Logger.getLogger( "" ).getHandlers();
 		Handler handler = null;
 		
@@ -43,6 +43,9 @@ public class HelloWorld
 		theLogger.addHandler(handler);
 		theLogger.setLevel(Level.FINE);
 		theLogger.setUseParentHandlers(false);
+		
+		// No logging
+		// theLogger.setLevel(Level.OFF);
 		
 		HelloWorld hello = new HelloWorld("Hello world!");
 		hello.sayHello();
