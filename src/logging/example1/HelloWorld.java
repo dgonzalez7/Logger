@@ -50,7 +50,7 @@ public class HelloWorld
 		HelloWorld hello = new HelloWorld("Hello world!");
 		hello.sayHello();
 		
-		// REMOVE
+		// REMOVE THIS
 	}
 
 	public HelloWorld(String message) 
