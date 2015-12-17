@@ -49,6 +49,8 @@ public class HelloWorld
 		
 		HelloWorld hello = new HelloWorld("Hello world!");
 		hello.sayHello();
+		
+		// REMOVE
 	}
 
 	public HelloWorld(String message) 
